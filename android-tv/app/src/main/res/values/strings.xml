@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCamara TV</string>
+    <string name="usb_not_connected">USB camera not connected</string>
+    <string name="usb_connected_name">Connected · %1$s</string>
+    <string name="usb_connected_resolution">USB camera · %1$d × %2$d</string>
+    <string name="status_checking">Checking camera…</string>
+    <string name="detail_checking_usb">Looking for a USB UVC camera.</string>
+    <string name="status_no_camera">Connect a USB camera</string>
+    <string name="detail_connect_uvc">Plug a UVC-compatible webcam into the TV, then select “Check again”.</string>
+    <string name="status_permission_required">Camera permission required</string>
+    <string name="detail_camera_permission">Allow camera access in the system dialog to show the live preview.</string>
+    <string name="status_usb_permission">Allow this USB camera</string>
+    <string name="detail_usb_permission">Confirm the USB permission dialog shown by the TV.</string>
+    <string name="status_permission_denied">Permission not granted</string>
+    <string name="detail_usb_permission_denied">USB access was denied. Select “Check again” and allow this device.</string>
+    <string name="detail_camera_permission_denied">Camera access was denied. Enable it in TV Settings → Apps → OpenCamara TV → Permissions.</string>
+    <string name="status_connecting">Opening USB camera…</string>
+    <string name="detail_opening_camera">Preparing the live preview.</string>
+    <string name="status_camera_unavailable">Unable to open camera</string>
+    <string name="detail_camera2_unavailable">The USB device was found, but this TV does not expose it as an external camera. Confirm UVC support or update the TV system.</string>
+    <string name="detail_no_preview_size">The camera did not provide a supported preview resolution.</string>
+    <string name="detail_camera2_error">Reconnect the camera and try again. If this continues, the TV firmware may not support external camera apps.</string>
+    <string name="detail_preview_failed">The camera opened, but the preview could not be started. Try another USB port or resolution.</string>
+    <string name="status_disconnected">Camera disconnected</string>
+    <string name="detail_reconnect_camera">Reconnect the USB camera, then check again.</string>
+    <string name="retry">Check again</string>
+    <string name="bottom_hint">Select Mirror to flip the image · Back to exit</string>
+    <string name="mirror_off">Mirror: Off</string>
+    <string name="mirror_on">Mirror: On</string>
+    <string name="take_photo">Photo</string>
+    <string name="photo_saved">Photo saved to %1$s. It may take a moment to appear in Gallery.</string>
+    <string name="photo_failed">Could not save the photo.</string>
+    <string name="photo_unavailable">Wait for the camera preview before taking a photo.</string>
+    <string name="storage_permission_denied">Storage permission is required to save photos.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCamara TV</string>
+    <string name="usb_not_connected">未连接 USB 摄像头</string>
+    <string name="usb_connected_name">已连接 · %1$s</string>
+    <string name="usb_connected_resolution">USB 摄像头 · %1$d × %2$d</string>
+    <string name="status_checking">正在检测摄像头…</string>
+    <string name="detail_checking_usb">正在查找 USB UVC 摄像头。</string>
+    <string name="status_no_camera">请连接 USB 摄像头</string>
+    <string name="detail_connect_uvc">将支持 UVC 的摄像头插入电视 USB 接口，然后选择“重新检测”。</string>
+    <string name="status_permission_required">需要摄像头权限</string>
+    <string name="detail_camera_permission">请在系统弹窗中允许摄像头权限，以显示实时画面。</string>
+    <string name="status_usb_permission">请允许使用此 USB 摄像头</string>
+    <string name="detail_usb_permission">请在电视显示的 USB 授权弹窗中选择允许。</string>
+    <string name="status_permission_denied">没有获得权限</string>
+    <string name="detail_usb_permission_denied">USB 访问被拒绝。请选择“重新检测”并允许使用此设备。</string>
+    <string name="detail_camera_permission_denied">摄像头权限被拒绝。请前往电视设置 → 应用 → OpenCamara TV → 权限中开启。</string>
+    <string name="status_connecting">正在打开 USB 摄像头…</string>
+    <string name="detail_opening_camera">正在准备实时预览。</string>
+    <string name="status_camera_unavailable">无法打开摄像头</string>
+    <string name="detail_camera2_unavailable">已发现 USB 设备，但此电视未将它开放为外置摄像头。请确认摄像头支持 UVC，或更新电视系统。</string>
+    <string name="detail_no_preview_size">摄像头没有提供可用的预览分辨率。</string>
+    <string name="detail_camera2_error">请重新插拔摄像头后重试。如果仍然失败，可能是电视固件不支持第三方外置摄像头应用。</string>
+    <string name="detail_preview_failed">摄像头已打开，但无法启动预览。请尝试其他 USB 接口或摄像头。</string>
+    <string name="status_disconnected">摄像头已断开</string>
+    <string name="detail_reconnect_camera">请重新连接 USB 摄像头，然后再次检测。</string>
+    <string name="retry">重新检测</string>
+    <string name="bottom_hint">选择“镜像”切换画面方向 · 按返回键退出</string>
+    <string name="mirror_off">镜像：关</string>
+    <string name="mirror_on">镜像：开</string>
+    <string name="take_photo">拍照</string>
+    <string name="photo_saved">照片已保存到 %1$s，相册可能需要片刻才会显示。</string>
+    <string name="photo_failed">照片保存失败。</string>
+    <string name="photo_unavailable">请等待摄像头画面显示后再拍照。</string>
+    <string name="storage_permission_denied">需要存储权限才能保存照片。</string>
+</resources>

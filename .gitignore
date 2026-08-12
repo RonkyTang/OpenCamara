@@ -4,3 +4,10 @@ DerivedData/
 build/
 *.xcuserstate
 xcuserdata/
+
+# Android TV
+.gradle/
+local.properties
+captures/
+*.apk
+*.aab

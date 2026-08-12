@@ -1,8 +1,26 @@
 # OpenCamara
 
-一款原生 macOS 摄像头应用，可拍摄 JPG 照片和带声音的 MP4 录像。
+OpenCamara 现在包含两个独立客户端：
 
-## 功能
+- `OpenCamara/`：原生 macOS 摄像头应用，可拍摄 JPG 照片和带声音的 MP4 录像。
+- `android-tv/`：Android TV / 某米电视 USB 摄像头预览应用，启动后自动检测 UVC 摄像头并显示实时画面。
+
+## 某米电视 / Android TV
+
+电视端功能：
+
+- Android TV 原生桌面入口，横屏全屏显示
+- 启动后自动检测 USB UVC 摄像头并请求必要权限
+- 摄像头热插拔与自动重新连接
+- 自动选择接近电视画幅且不超过 1080p 的预览分辨率
+- 支持中文和英文界面
+- 全程可使用电视遥控器，无需触屏
+
+详细构建、安装与兼容性说明见 [`android-tv/README.md`](android-tv/README.md)。
+
+## macOS
+
+### 功能
 
 - 第一次启动时选择保存文件夹，以后自动使用该位置
 - 使用安全书签持久保存文件夹授权
@@ -22,7 +40,7 @@
     └── Video_20260811_142615_456.mp4
 ```
 
-## 运行
+### 运行
 
 1. 使用 Xcode 打开 `OpenCamara.xcodeproj`。
 2. 选择 `OpenCamara` Scheme 和 `My Mac`。
